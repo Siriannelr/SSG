@@ -10,13 +10,13 @@ Développeur principale
 
 Développeur Créa
 - [ ] Créer un style.css
-      header
-      Section-Title
-      Carte
+      /header
+      /Section-Title
+      /Carte
       - Photo 1
       - Photo 2
       - Photo 3
-      Footer
+      /Footer
 - [ ] Trouver des photos d’oiseaux pour illustrer.
       
       
