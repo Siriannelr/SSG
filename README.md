@@ -12,10 +12,10 @@ Utiliser les classes CSS imposées du Développeur Créa
 
 Développeur Créa (Grace)
 - [ ] Créer un /css/style.css
- .header-main
-.section-title
-.photo
-.footer
+- .header-main
+- .section-title
+- .photo
+- .footer
 - [ ] Trouver des photos d’oiseaux pour illustrer.
       
       
