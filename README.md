@@ -1,3 +1,5 @@
-# SSG Le super défie de l'équipe SSG
+# SSG Le super défi de l'équipe SSG
 
-   
+  /css
+  /img
+  /php
