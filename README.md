@@ -9,5 +9,5 @@ Développeur Créa
 - [ ] Créer un formulaire pour soumettre les photos et un formulaire de vote
 
 Développeur Créa
-- [ ] Créer un style.css
-m
+Créer un CSS en 
+
