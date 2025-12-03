@@ -6,3 +6,8 @@ Développeur Créa
 /index.html
 - [ ] Créer une page php qui sert au concours photo.
 /concours.php
+- [ ] Créer un formulaire pour soumettre les photos et un formulaire de vote
+
+Développeur Créa
+- [ ] Créer un style.css
+      
