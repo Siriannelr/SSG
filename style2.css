@@ -1,146 +1,105 @@
-
+/* ------------------------------ */
+/*         RESET BASIQUE          */
+/* ------------------------------ */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* ------------------------------ */
+/*         STYLES GLOBAUX         */
+/* ------------------------------ */
 body {
-  font-family: "Poppins", sans-serif;
-  background: #f5f5f5;
-  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
-}
+  color: #fff;
 
-
-.header {
-  width: 100%;
-  padding: 20px 40px;
-  background: #1e1e1e;
-  color: white;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.header h1 {
-  font-size: 28px;
-  font-weight: 600;
-}
-
-.header nav ul {
-  display: flex;
-  gap: 25px;
-  list-style: none;
-}
-
-.header nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  transition: 0.2s;
-}
-
-.header nav a:hover {
-  opacity: 0.6;
-}
-
-
-.main {
-  max-width: 1100px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-
-.section-title {
-  font-size: 32px;
-  margin-bottom: 20px;
-  font-weight: 600;
-  border-left: 5px solid #1e1e1e;
-  padding-left: 10px;
-}
-
-
-.photo {
-  width: 100%;
-  max-width: 500px;
-  border-radius: 12px;
-  overflow: hidden;
-  display: block;
-  margin: 20px auto;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-}
-
-.photo img {
-  width: 100%;
-  display: block;
-}
-
-
-.footer {
-  text-align: center;
+  /* Dégradé de fond */
+  background: linear-gradient(135deg, #2c5364, #203a43, #0f2027);
+  min-height: 100vh;
   padding: 20px;
-  background: #1e1e1e;
-  color: white;
-  margin-top: 60px;
 }
 
-.footer p {
-  font-size: 14px;
-  opacity: 0.7;
+/* ------------------------------ */
+/*            HEADER              */
+/* ------------------------------ */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
 }
 
-
-.oiseau1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 40px 0;
-  flex-wrap: wrap;
-  gap: 20px;
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 
-.oiseau1 img {
-  width: 250px;
+header p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+/* Navigation */
+nav a {
+  color: #ffd369;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------ */
+/*             MAIN               */
+/* ------------------------------ */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+}
+
+main h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: #ffd369;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+/* Image principale */
+.main-image {
+  width: 100%;
   border-radius: 10px;
-  object-fit: cover;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  margin: 20px 0;
+  display: block;
 }
 
-
-
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .section-title {
-    font-size: 26px;
-  }
-
-  .oiseau1 img {
-    width: 180px;
-  }
+/* ------------------------------ */
+/*             FOOTER             */
+/* ------------------------------ */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  opacity: 0.9;
 }
 
-@media (max-width: 480px) {
-  .header nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
+footer hr {
+  border: none;
+  border-top: 1px solid #ffffff50;
+  margin-bottom: 15px;
+}
 
-  .section-title {
-    font-size: 22px;
-  }
-
-  .oiseau1 img {
-    width: 150px;
-  }
+footer p {
+  font-size: 0.9rem;
 }
